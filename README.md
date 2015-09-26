@@ -25,7 +25,7 @@ You can tell if the client's left mouse button is down with:
 console.log(mouse.left.releaseTime < mouse.getTime())
 ```
 
-Note that the HTML element has to have `focus`. You can force it to have focus with
+Note that the HTML element has to have `focus` for MouseJS to be able to track the client's mouse. You can force an element to have focus with
 ```js
-element.focus();
+someElement.focus();
 ```

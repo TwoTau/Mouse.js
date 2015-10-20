@@ -1,10 +1,11 @@
 # MouseJS
 A very small JavaScript library that allows you to track a client's cursor position on an element
 
-You can initialize it with some HTML and JavaScript:
+You can download ```Mouse.js``` and add it to your HTML:
 ```html
-<script src="https://raw.githubusercontent.com/TwoTau/MouseJS/master/Mouse.js"></script>
+<script src="scripts/Mouse.js"></script>
 ```
+Next, initialize it with a line of JavaScript:
 ```javascript
 var mouse = new MouseJS(someElement);
 ```
